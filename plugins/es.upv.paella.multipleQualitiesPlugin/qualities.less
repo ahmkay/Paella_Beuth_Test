@@ -1,0 +1,29 @@
+.buttonPlugin.showMultipleQualitiesPlugin {
+  background-image: none;
+  color: @popup_text_color;
+  text-align: center;
+  font-size: 1em;
+  line-height: unit(@playbackBarButtonWidthPx - @playbackBarButtonPadding * 2,px);
+}
+
+.selectQuality {
+  padding: 10px;
+}
+
+.multipleQualityItem {
+  font-size: 1em;
+  padding: 3px 12px;
+  cursor: pointer;
+}
+
+.multipleQualityItem:hover {
+  background-color: @hoverBackgroundColor;
+}
+
+.multipleQualityItem.selected {
+  color:@mainColor;
+}
+
+.multipleQualityItem.selected:hover {
+  color:@popup_text_color;
+}
