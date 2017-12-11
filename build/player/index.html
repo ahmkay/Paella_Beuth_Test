@@ -57,26 +57,17 @@
 <!--	<body id="body" onload="loadStandalonePaella('playerContainer');"> -->
     <body id="body" onload="paella.load('playerContainer',{ url:'../repository/' });">
 		<div id="playerContainer" style="display:block;width:100%">
-			<button onclick="startOverlay();" style="position: absolute; bottom: 65px; left: 25px; z-index: 99;">Overlay</button>
+
+			<button onclick="startOverlay()" style="position: fixed; top: 15px; left: 20px; z-index: 99;">OVERLAY</button>
+			<button onclick="startText()" style="position: fixed; top: 15px; left: 105px; z-index: 99;">TEXT</button>
+			<button onclick="startIcon()" style="position: fixed; top: 15px; left: 165px; z-index: 99;">ICON</button>
+			<button onclick="startGong()" style="position: fixed; top: 15px; left: 225px; z-index: 99;">NOTICE</button>
+			<button onclick="startAdd1()" style="position: fixed; top: 15px; left: 300px; z-index: 99;">ADD 1</button>
+			<button onclick="startAdd2()" style="position: fixed; top: 15px; left: 365px; z-index: 99;">ADD 2</button>
 
 
 		</div>
-
-
-
 	</body>
 
-	<script>
-        function startOverlay(){
-            console.log("START OVERLAY");
-            var img = document.createElement("img");
-            img.src = "https://orbcare.com/wp-content/uploads/2016/09/orbcare_header_about_layer_2_transparent_box.png";
-            img.style.position = "absolute";
-            img.style.bottom = 5 + "%";
-            var container = document.getElementById("overlayContainer");
-            container.appendChild(img);
-        }
-	</script>
-
-
+	<script type="text/javascript" async src="javascript/overlay-plugin.js"></script>
 </html>

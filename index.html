@@ -57,6 +57,17 @@
 <!--	<body id="body" onload="loadStandalonePaella('playerContainer');"> -->
     <body id="body" onload="paella.load('playerContainer',{ url:'../repository/' });">
 		<div id="playerContainer" style="display:block;width:100%">
+
+			<button onclick="startOverlay()" style="position: fixed; top: 15px; left: 20px; z-index: 99;">OVERLAY</button>
+			<button onclick="startText()" style="position: fixed; top: 15px; left: 105px; z-index: 99;">TEXT</button>
+			<button onclick="startIcon()" style="position: fixed; top: 15px; left: 165px; z-index: 99;">ICON</button>
+			<button onclick="startGong()" style="position: fixed; top: 15px; left: 225px; z-index: 99;">NOTICE</button>
+			<button onclick="startAdd1()" style="position: fixed; top: 15px; left: 300px; z-index: 99;">ADD 1</button>
+			<button onclick="startAdd2()" style="position: fixed; top: 15px; left: 365px; z-index: 99;">ADD 2</button>
+
+
 		</div>
 	</body>
+
+	<script type="text/javascript" async src="javascript/overlay-plugin.js"></script>
 </html>
