@@ -81,7 +81,7 @@ function startGong(){
         dot.style.opacity = 100;
 
 
-        setTimeout(function(){ dot.style.opacity = 0; }, 1500);
+        setTimeout(function(){ dot.style.opacity = 0; }, 3000);
     }
 }
 
