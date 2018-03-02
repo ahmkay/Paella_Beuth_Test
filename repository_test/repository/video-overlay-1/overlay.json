@@ -1,0 +1,210 @@
+{
+	"streams": [
+		{
+			"left" : {
+				"id": "videostreamID",
+				"inserts": [
+				{
+					"insert1": {
+						"src": "http://om-circle.de/img/PaellaStuff/bauchbinde.png",
+						"title": "Prof. Dr. Marquez Sanchez",
+						"text": "Die Erde ist eine Scheibe",
+						"icon": "http://om-circle.de/img/PaellaStuff/beuth_logo.gif",
+						"time": 10,
+						"duration": 5
+					},
+					"insert2": {
+						"src": "path/to/background_image2.png",
+						"title": "Lorem ipsum dolor sit amet, ...",
+						"text": "...consectetuer adipiscing elit.",
+						"icon": "path/to/icon_mage2.png",
+						"time": 20,
+						"duration": 10
+					}
+				}
+				],
+				"logos": [
+					{
+						"logo1": {
+							"src": "path/to/logo_image.png",
+							"time": 0,
+							"duration": 30
+						},
+						"logo2": {
+							"image": "path/to/logo_image2.png",
+							"time": 30,
+							"duration": 10
+						}
+					}
+				],
+				"notifications": [
+					{
+						"notification1": {
+							"src_audio": "http://om-circle.de/img/PaellaStuff/gong.mp3",
+							"src_visuell": "http://om-circle.de/img/PaellaStuff/redDot.png",
+							"time": 4
+						},
+						"notification2": {
+							"src_audio": "path/to/sound_file2.mp3",
+							"src_visuell": "path/to/screen_image2.png",
+							"time": 45
+						}
+					}
+				],
+				"links": [
+					{
+						"link1": {
+							"url": "https://www.google.com",
+							"text": "Vorlesungsfolien",
+							"time": 4,
+							"duration":  8,
+							"image": "http://om-circle.de/img/PaellaStuff/google.png",
+							"interaction": "click,speech,eye"
+						},
+						"link2": {
+							"url": "https://www.url.to/link2",
+							"text": "Linktext2",
+							"time": 46,
+							"duration": 70,
+							"image": "/path/to/link_image2.png",
+							"interaction": "click,speech,eye"
+						}
+					}
+				],
+				"commercials": [
+					{
+						"commercial1": {
+							"type": "video",
+							"src": "http://om-circle.de/img/PaellaStuff/add1.png",
+							"time": 15,
+							"duration":5,
+							"screen": "fullscreen"
+						},
+						"commercial2": {
+							"type": "img",
+							"src": "http://om-circle.de/img/PaellaStuff/add2.png",
+							"time": 19,
+							"duration":5,
+							"screen": "banner"
+						}
+					}
+				],
+				"additionalStreams": [
+					{
+						"stream1": {
+							"src": "path/to/intro_video.mp4",
+							"type": "intro"
+						},
+						"stream2": {
+							"src": "path/to/outro_video.mp4",
+							"type": "outro"
+						}
+					}
+				]
+
+			},		
+		"right" : {
+				"id": "videostreamID",
+				"inserts": [
+				{
+					"insert1": {
+						"src": "path/to/background_image.png",
+						"text": "Lorem ipsum dolor sit amet, ...",
+						"icon": "path/to/icon_image.png",
+						"time": 0,
+						"duration": 10
+					},
+					"insert2": {
+						"src": "path/to/background_image2.png",
+						"text": "...consectetuer adipiscing elit.",
+						"icon": "path/to/icon_mage2.png",
+						"time": 20,
+						"duration": 10
+					}
+				}
+				],
+				"logos": [
+					{
+						"logo1": {
+							"src": "path/to/logo_image.png",
+							"time": 0,
+							"duration": 30
+						},
+						"logo2": {
+							"src": "path/to/logo_image2.png",
+							"time": 30,
+							"duration": 10
+						}
+					}
+				],
+				"notifications": [
+					{
+						"notification1": {
+							"src_audio": "path/to/sound_file.mp3",
+							"src_visuell": "path/to/screen_image.gif",
+							"time": 12
+						},
+						"notification2": {
+							"src_audio": "path/to/sound_file2.mp3",
+							"src_visuell": "path/to/screen_image2.gif",
+							"time": 45
+						}
+					}
+				],
+				"links": [
+					{
+						"link1": {
+							"url": "https://www.url.to/link",
+							"text": "Linktext",
+							"time": 0,
+							"duration":  20,
+							"image": "/path/to/link_image.png",
+							"interaction": "click,speech,eye"
+						},
+						"link2": {
+							"url": "https://www.url.to/link2",
+							"text": "Linktext2",
+							"time": 46,
+							"duration": 70,
+							"image": "/path/to/link_image2.png",
+							"interaction": "click,speech,eye"
+						}
+					}
+				],
+				"commercials": [
+					{
+						"commercial1": {
+							"type": "video",
+							"src": "path/to/commercial_video.mp4",
+							"time": 560,
+							"duration":30,
+							"screen": "fullscreen"
+						},
+						"commercial2": {
+							"type": "image",
+							"src": "path/to/commercial_banner.png",
+							"time": 460,
+							"duration":30,
+							"screen": "banner"
+						}
+					}
+
+				],
+				"additionalStreams": [
+					{
+						"stream1": {
+							"src": "path/to/intro_video.mp4",
+							"type": "intro"
+						},
+						"stream2": {
+							"src": "path/to/outro_video.mp4",
+							"type": "outro"
+						}
+					}
+				]
+
+			}
+			
+		}
+	]
+}

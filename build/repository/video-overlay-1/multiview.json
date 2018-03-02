@@ -1,0 +1,182 @@
+{
+  "streams": [{
+    "left": {
+      "id": "http://141.64.64.36/static/mh_default_org/engage-player/bec1030b-746d-4f6d-8c8e-cb940c02e023/87d6a403-4775-49d0-951a-615b99b17ee1/HST2017_1_EinfuehrungTrio.mp4",
+      "inserts": [{
+        "insert1": {
+          "src": "http://om-circle.de/img/PaellaStuff/Beuth_Bauchbinde.png",
+          "title": "Prof. Dr.-Ing. Michael Kramp",
+          "text": "Vizepräsident für Studium, und Internationales",
+          "icon": "http://om-circle.de/img/PaellaStuff/beuth_logo.gif",
+          "time": 4,
+          "duration": 25
+        },
+        "insert2": {
+          "src": "http://om-circle.de/img/PaellaStuff/Beuth_Bauchbinde.png",
+          "title": "Musikalischer Auftakt",
+          "text": "Klavier: Emmanouilidou, Akkordeon: Tschirley, Cello: Su",
+          "icon": "http://om-circle.de/img/PaellaStuff/beuth_logo.gif",
+          "time": 27,
+          "duration": 7
+        }
+      }],
+      "logos": [{
+        "logo1": {
+          "src": "http://om-circle.de/img/PaellaStuff/google.png",
+          "time": 15,
+          "duration": 5
+        },
+        "logo2": {
+          "image": "path/to/logo_image2.png",
+          "time": 30,
+          "duration": 10
+        }
+      }],
+      "notifications": [{
+        "notification1": {
+          "src_audio": "http://om-circle.de/img/PaellaStuff/gong.mp3",
+          "src_visuell": "http://om-circle.de/img/PaellaStuff/redDot.png",
+          "time": 14
+        },
+        "notification2": {
+          "src_audio": "http://om-circle.de/img/PaellaStuff/gong.mp3",
+          "src_visuell": "http://om-circle.de/img/PaellaStuff/redDot.png",
+          "time": 45
+        }
+      }],
+      "links": [{
+        "link1": {
+          "url": "http://www.beuth-hochschule.de",
+          "text": "Beuth Hochschule",
+          "time": 13,
+          "duration": 8,
+          "image": "http://om-circle.de/img/PaellaStuff/google.png",
+          "interaction": "click,speech,eye"
+        },
+        "link2": {
+          "url": "http://www.beuth-hochschule.de/vi/",
+          "text": "Fachbereich 6",
+          "time": 46,
+          "duration": 70,
+          "image": "http://om-circle.de/img/PaellaStuff/google.png",
+          "interaction": "click,speech,eye"
+        }
+      }],
+      "commercials": [{
+        "commercial1": {
+          "type": "image",
+          "src": "http://om-circle.de/img/PaellaStuff/add1.png",
+          "time": 8,
+          "duration": 5,
+          "screen": "banner"
+        },
+        "commercial2": {
+          "type": "image",
+          "src": "http://om-circle.de/img/PaellaStuff/add2.png",
+          "time": 18,
+          "duration": 6,
+          "screen": "fullscreen"
+        }
+      }],
+      "additionalStreams": [{
+        "stream1": {
+          "src": "path/to/intro_video.mp4",
+          "type": "intro"
+        },
+        "stream2": {
+          "src": "path/to/outro_video.mp4",
+          "type": "outro"
+        }
+      }]
+    },
+    "right": {
+      "id": "http://141.64.64.36/static/mh_default_org/engage-player/bec1030b-746d-4f6d-8c8e-cb940c02e023/87d6a403-4775-49d0-951a-615b99b17ee1/HST2017_1_EinfuehrungTrio.mp4",
+      "inserts": [{
+        "insert1": {
+          "src": "http://om-circle.de/img/PaellaStuff/bauchbinde.png",
+          "text": "Prof. Dr.-Ing. Michael Kramp | Vizepräsident für Studium, Lehre und Internationales (VPL)",
+          "icon": "http://om-circle.de/img/PaellaStuff/beuth_logo.gif",
+          "time": 7,
+          "duration": 7
+        },
+        "insert2": {
+          "src": "http://om-circle.de/img/PaellaStuff/bauchbinde.png",
+          "text": "Musikalischer Auftakt | Klavier: Chrysanthie Emmanouilidou Akkordeon: Prof. Dr. Sven Tschirley, Cello: Lingqi Su",
+          "icon": "http://om-circle.de/img/PaellaStuff/beuth_logo.gif",
+          "time": 27,
+          "duration": 7
+        }
+      }],
+      "logos": [{
+        "logo1": {
+          "src": "path/to/logo_image.png",
+          "time": 0,
+          "duration": 30
+        },
+        "logo2": {
+          "image": "path/to/logo_image2.png",
+          "time": 30,
+          "duration": 10
+        }
+      }],
+      "notifications": [{
+        "notification1": {
+          "src_audio": "http://om-circle.de/img/PaellaStuff/gong.mp3",
+          "src_visuell": "http://om-circle.de/img/PaellaStuff/redDot.png",
+          "time": 12
+        },
+        "notification2": {
+          "src_audio": "http://om-circle.de/img/PaellaStuff/gong.mp3",
+          "src_visuell": "http://om-circle.de/img/PaellaStuff/redDot.png",
+          "time": 45
+        }
+      }],
+      "links": [{
+        "link1": {
+          "url": "http://www.beuth-hochschule.de",
+          "text": "Beuth Hochschule",
+          "time": 0,
+          "duration": 20,
+          "image": "http://om-circle.de/img/PaellaStuff/google.png",
+          "interaction": "click,speech,eye"
+        },
+        "link2": {
+          "url": "http://www.beuth-hochschule.de/vi/",
+          "text": "Fachbereich 6",
+          "time": 46,
+          "duration": 70,
+          "image": "http://om-circle.de/img/PaellaStuff/google.png",
+          "interaction": "click,speech,eye"
+        }
+      }],
+      "commercials": [{
+        "commercial1": {
+          "type": "image",
+          "src": "http://om-circle.de/img/PaellaStuff/add2.png",
+          "time": 560,
+          "duration": 30,
+          "screen": "fullscreen"
+        },
+        "commercial2": {
+          "type": "image",
+          "src": "http://om-circle.de/img/PaellaStuff/add1.png",
+          "time": 460,
+          "duration": 30,
+          "screen": "banner"
+        }
+      }],
+      "additionalStreams": [{
+          "stream1": {
+            "src": "path/to/intro_video.mp4",
+            "type": "intro"
+          },
+          "stream2": {
+            "src": "path/to/outro_video.mp4",
+            "type": "outro"
+          }
+        }
+
+      ]
+    }
+  }]
+}

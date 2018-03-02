@@ -1,3 +1,5 @@
+console.log("Plugin Frame control wird geladen!");
+
 Class ("paella.plugins.FrameCaptionsSearchPlugIn", paella.SearchServicePlugIn, {
 	getName: function() { return "es.upv.paella.frameCaptionsSearchPlugin"; },
 
@@ -135,6 +137,12 @@ Class ("paella.plugins.FrameControlPlugin",paella.ButtonPlugin,{
 		var content = document.createElement('div');
 		content.className = 'frameControlContent';
 
+        var img = new Image(500,500); // width, height values are optional params
+        img.src = 'http://www.hsv-arena.hamburg/wp-content/uploads/2017/06/BILD.jpg';
+        container.appendChild(img);
+        content.appendChild(img);
+        /* document.appendChild(img); */
+
 		this.navButtons = {
 			left:document.createElement('div'),
 			right:document.createElement('div')
@@ -148,6 +156,7 @@ Class ("paella.plugins.FrameControlPlugin",paella.ButtonPlugin,{
 		domElement.appendChild(container);
 		container.appendChild(content);
 		domElement.appendChild(this.navButtons.right);
+
 
 		this.navButtons.left.scrollContainer = container;
 		$(this.navButtons.left).click(function(event) {

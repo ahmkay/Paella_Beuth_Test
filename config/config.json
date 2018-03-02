@@ -67,6 +67,7 @@
 		"//**** For a list of available plugins and configuration, go to": "https://github.com/polimediaupv/paella/blob/master/doc/plugins.md",
 		"list":{
 			"//****": "Button Plugins",
+			"edu.beuth.paella.overlayButtonPlugin": {"enabled":true},
 			"edu.harvard.dce.paella.flexSkipPlugin": {"enabled":true, "direction": "Rewind", "seconds": 10},
 			"edu.harvard.dce.paella.flexSkipForwardPlugin": {"enabled":true, "direction": "Forward", "seconds": 30},
 			"es.upv.paella.captionsPlugin": {"enabled":true, "searchOnCaptions":true},
